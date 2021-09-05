@@ -8,7 +8,7 @@ import { getTrip } from "./endpoint/getTrip";
 import { getUser } from "./endpoint/getUser";
 import { ordenarProduct } from "./endpoint/ordernarProduct";
 import { purchaseUser } from "./endpoint/purchaseUser";
-
+import { AddressInfo } from "net";
 app.post("/addUser",createUser)
 app.post("/createProduct",createProduct)
 
@@ -25,3 +25,13 @@ app.post("/createPurchase",createPurchase)
 app.get("/order/:type",ordenarProduct)
 
 app.get("/purchaseUser/:IDuser",purchaseUser)
+
+
+const server = app.listen(process.env.PORT || 3005, () => {
+    if (server) {
+       const address = server.address() as AddressInfo;
+       console.log(`Server is running in http://localhost: ${address.port}`);
+    } else {
+       console.error(`Failure upon starting server.`);
+    }
+ });
