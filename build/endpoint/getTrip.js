@@ -31,3 +31,4 @@ const getTrip = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     }
 });
 exports.getTrip = getTrip;
+//# sourceMappingURL=getTrip.js.map

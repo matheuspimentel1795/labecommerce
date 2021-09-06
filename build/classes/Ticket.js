@@ -10,3 +10,4 @@ class Ticket extends Product_1.Product {
     }
 }
 exports.Ticket = Ticket;
+//# sourceMappingURL=Ticket.js.map

@@ -22,3 +22,4 @@ app_1.default.get("/gettrip", getTrip_1.getTrip);
 app_1.default.post("/createPurchase", createPurchase_1.createPurchase);
 app_1.default.get("/order/:type", ordernarProduct_1.ordenarProduct);
 app_1.default.get("/purchaseUser/:IDuser", purchaseUser_1.purchaseUser);
+//# sourceMappingURL=index.js.map

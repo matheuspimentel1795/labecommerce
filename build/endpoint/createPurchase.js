@@ -37,3 +37,4 @@ const createPurchase = (req, res) => __awaiter(void 0, void 0, void 0, function*
     }
 });
 exports.createPurchase = createPurchase;
+//# sourceMappingURL=createPurchase.js.map

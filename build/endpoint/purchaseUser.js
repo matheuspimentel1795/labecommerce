@@ -33,3 +33,4 @@ const purchaseUser = (req, res) => __awaiter(void 0, void 0, void 0, function* (
     }
 });
 exports.purchaseUser = purchaseUser;
+//# sourceMappingURL=purchaseUser.js.map

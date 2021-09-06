@@ -20,3 +20,4 @@ DataBase.connection = knex_1.default({
         database: process.env.DB_SCHEMA
     }
 });
+//# sourceMappingURL=DataBase.js.map

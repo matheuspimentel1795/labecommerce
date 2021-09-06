@@ -29,3 +29,4 @@ class PurchaseDataBase extends DataBase_1.DataBase {
     }
 }
 exports.PurchaseDataBase = PurchaseDataBase;
+//# sourceMappingURL=PurchaseDataBase.js.map

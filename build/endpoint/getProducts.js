@@ -31,3 +31,4 @@ const getProducts = (req, res) => __awaiter(void 0, void 0, void 0, function* ()
     }
 });
 exports.getProducts = getProducts;
+//# sourceMappingURL=getProducts.js.map

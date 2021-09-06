@@ -38,3 +38,4 @@ class ProductDataBase extends DataBase_1.DataBase {
     }
 }
 exports.ProductDataBase = ProductDataBase;
+//# sourceMappingURL=ProductDataBase.js.map

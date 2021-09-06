@@ -29,3 +29,4 @@ class ticketDataBase extends DataBase_1.DataBase {
     }
 }
 exports.ticketDataBase = ticketDataBase;
+//# sourceMappingURL=TicketDataBase.js.map

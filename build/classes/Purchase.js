@@ -10,3 +10,4 @@ class Purchase {
     }
 }
 exports.Purchase = Purchase;
+//# sourceMappingURL=Purchase.js.map

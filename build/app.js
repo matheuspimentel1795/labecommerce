@@ -8,7 +8,8 @@ const cors_1 = __importDefault(require("cors"));
 const app = express_1.default();
 app.use(express_1.default.json());
 app.use(cors_1.default());
-app.listen(3003, () => {
+app.listen(process.env.PORT || 3003, () => {
     console.log('Servidor rodando na porta 3003');
 });
 exports.default = app;
+//# sourceMappingURL=app.js.map
